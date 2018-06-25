@@ -6132,13 +6132,15 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 .pg_home {
-  padding: 32px; }
+  padding: 17px;
+  min-width: 1024px !important; }
   .pg_home .grid_height_1 {
     height: 100px; }
   .pg_home .grid_height_2 {
     height: 200px; }
   .pg_home > 　.container {
-    width: 990px !important; }
+    width: 990px !important;
+    min-width: 990px !important; }
   .pg_home .pg_header {
     height: 100px; }
   .pg_home .pg_logo {

@@ -1,5 +1,6 @@
 .pg_home {
-    padding: 32px;
+    padding: 17px;
+    min-width: 1024px !important;
     .grid_height_1 {
         height: $per_grid_height;
     }
@@ -10,6 +11,7 @@
 
     >　.container {
         width: 990px !important;
+        min-width: 990px !important;
     }
 
     .pg_header {

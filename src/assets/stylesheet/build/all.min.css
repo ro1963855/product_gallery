@@ -1713,10 +1713,10 @@ h2,h3{page-break-after:avoid}
 .table-dark tbody+tbody,.table-dark td,.table-dark th,.table-dark thead th{border-color:#dee2e6}
 .table .thead-dark th{color:inherit;border-color:#dee2e6}
 }
-.pg_home{padding:32px}
+.pg_home{padding:17px;min-width:1024px!important}
 .pg_home .grid_height_1{height:100px}
 .pg_home .grid_height_2{height:200px}
-.pg_home>.container{width:990px!important}
+.pg_home>.container{width:990px!important;min-width:990px!important}
 .pg_home .pg_header{height:100px}
 .pg_home .pg_logo{width:131px;height:27px;background:#000}
 .pg_home .pg_logo p{color:#fff;font:normal 700 18px Roboto,sans-serif;text-align:center;line-height:27px;margin:0;padding:0}
