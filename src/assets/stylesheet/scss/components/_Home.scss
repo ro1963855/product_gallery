@@ -1,0 +1,86 @@
+.pg_home {
+    padding: 32px;
+    .grid_height_1 {
+        height: $per_grid_height;
+    }
+
+    .grid_height_2 {
+        height: $per_grid_height * 2;
+    }
+
+    >　.container {
+        width: 990px !important;
+    }
+
+    .pg_header {
+        height: $per_grid_height;
+    }
+
+    .pg_logo {
+        width: 131px;
+        height: 27px;
+        background: $black;
+        p {
+            color: white;
+            font: $font-Logo;
+            text-align: center;
+            line-height: 27px;
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    .pg_title {
+        margin-top: 6px;
+        font: $font-Titele;
+    }
+
+    .pg_first_row {
+        height: $per_grid_height * 4;
+    }
+
+    .pg_product_image {
+        background-position:center;
+        background-size: cover;       
+    }
+
+    .pg_first_product,
+    .pg_seven_product {
+        div {
+            width: 480px;
+            height: 400px;
+        }
+    }
+    
+    .pg_second_product,
+    .pg_five_product {
+        div {
+            width: 240px;
+            height: 200px;
+        }
+    }
+
+    .pg_second_row {
+        height: $per_grid_height * 4;
+    }
+
+    .pg_three_product {
+        div {
+            width: 480px;
+            height: 200px;
+        }        
+    }
+
+    .pg_four_product,
+    .pg_six_product {
+        div {
+            width: 240px;
+            height: 400px;
+        }        
+    }
+
+    .pg_forth_row {
+        height: $per_grid_height * 6;
+    }
+
+}
