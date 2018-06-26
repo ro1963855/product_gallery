@@ -144,7 +144,6 @@
 
     .pg_product_title {
         z-index: 11;
-        width: 100%;
     }
 
     .pg_product_title,
@@ -258,7 +257,7 @@
     .pg_product_2 {
         .pg_product_title {
             bottom: 80px;
-            right: -240px;
+            left: 240px;
         }        
 
         .pg_product_title:before, 

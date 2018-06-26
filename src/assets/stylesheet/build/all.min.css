@@ -1736,7 +1736,7 @@ h2,h3{page-break-after:avoid}
 .pg_home .pg_decorate_12{position:absolute;right:-120px;bottom:0;z-index:9}
 .pg_home .pg_decorate_13{position:absolute;left:0;top:250px;z-index:9}
 .pg_home .pg_decorate_14{position:absolute;left:-60px;bottom:200px;z-index:9}
-.pg_home .pg_product_title{z-index:11;width:100%}
+.pg_home .pg_product_title{z-index:11}
 .pg_home .pg_product_title,.pg_home .pg_product_title span,.pg_home .pg_product_title:after,.pg_home .pg_product_title:before,.pg_home .pg_product_title_rotate,.pg_home .pg_product_title_rotate span,.pg_home .pg_product_title_rotate:after,.pg_home .pg_product_title_rotate:before{position:absolute}
 .pg_home .pg_product_title span,.pg_home .pg_product_title:after,.pg_home .pg_product_title:before,.pg_home .pg_product_title_rotate span,.pg_home .pg_product_title_rotate:after,.pg_home .pg_product_title_rotate:before{position:absolute;overflow:hidden;font:normal 700 48px Roboto,sans-serif;white-space:nowrap}
 .pg_home .pg_product_title span{color:rgba(0,0,0,.3);z-index:13;height:25px;top:-17px}
@@ -1751,7 +1751,7 @@ h2,h3{page-break-after:avoid}
 .pg_home .pg_product_1 .pg_product_title{top:-14px}
 .pg_home .pg_product_1 .pg_product_title:after,.pg_home .pg_product_1 .pg_product_title:before{content:"LINEN BLAZER"}
 .pg_home .pg_product_1 .pg_depiction{bottom:25px;right:-80px}
-.pg_home .pg_product_2 .pg_product_title{bottom:80px;right:-240px}
+.pg_home .pg_product_2 .pg_product_title{bottom:80px;left:240px}
 .pg_home .pg_product_2 .pg_product_title:after,.pg_home .pg_product_2 .pg_product_title:before{content:"FREELIFT"}
 .pg_home .pg_product_2 .pg_number{right:0;top:0}
 .pg_home .pg_product_2 .pg_depiction{left:110px;top:72px}
