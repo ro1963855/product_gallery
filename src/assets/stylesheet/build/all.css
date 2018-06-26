@@ -6196,7 +6196,7 @@ a.text-dark:hover, a.text-dark:focus {
   .pg_home .pg_decorate_7 {
     position: absolute;
     right: 60px;
-    top: -50px;
+    top: -100px;
     z-index: 9; }
   .pg_home .pg_decorate_8 {
     position: absolute;
@@ -6309,42 +6309,91 @@ a.text-dark:hover, a.text-dark:focus {
   .pg_home .pg_product_1 .pg_product_title:before,
   .pg_home .pg_product_1 .pg_product_title:after {
     content: "LINEN BLAZER"; }
+  .pg_home .pg_product_1 .pg_depiction {
+    bottom: 25px;
+    right: -80px; }
   .pg_home .pg_product_2 .pg_product_title {
     bottom: 80px;
     right: -240px; }
   .pg_home .pg_product_2 .pg_product_title:before,
   .pg_home .pg_product_2 .pg_product_title:after {
     content: "FREELIFT"; }
+  .pg_home .pg_product_2 .pg_number {
+    right: 0;
+    top: 0; }
+  .pg_home .pg_product_2 .pg_depiction {
+    left: 110px;
+    top: 72px; }
   .pg_home .pg_product_3 .pg_product_title {
     top: -45px;
     left: 120px; }
   .pg_home .pg_product_3 .pg_product_title:before,
   .pg_home .pg_product_3 .pg_product_title:after {
     content: "SUPER SKINNY"; }
+  .pg_home .pg_product_3 .pg_number {
+    right: -60px;
+    top: 200px; }
+  .pg_home .pg_product_3 .pg_depiction {
+    left: 12px; }
   .pg_home .pg_product_4 .pg_product_title_rotate {
     top: 46px;
     left: -100px; }
   .pg_home .pg_product_4 .pg_product_title_rotate:before,
   .pg_home .pg_product_4 .pg_product_title_rotate:after {
     content: "DENIM"; }
+  .pg_home .pg_product_4 .pg_number {
+    left: -60px;
+    bottom: 0; }
+  .pg_home .pg_product_4 .pg_depiction {
+    top: -93px;
+    right: -17px; }
   .pg_home .pg_product_5 .pg_product_title {
     top: 50px;
     left: -260px; }
   .pg_home .pg_product_5 .pg_product_title:before,
   .pg_home .pg_product_5 .pg_product_title:after {
     content: "SWEATSHIRTS"; }
+  .pg_home .pg_product_5 .pg_number {
+    left: -120px;
+    bottom: 0; }
+  .pg_home .pg_product_5 .pg_depiction {
+    top: 0;
+    right: -145px; }
   .pg_home .pg_product_6 .pg_product_title {
     top: -50px;
     left: 102px; }
   .pg_home .pg_product_6 .pg_product_title:before,
   .pg_home .pg_product_6 .pg_product_title:after {
     content: "VINTAGE DENIM"; }
+  .pg_home .pg_product_6 .pg_number {
+    left: -60px;
+    top: 150px; }
+  .pg_home .pg_product_6 .pg_depiction {
+    bottom: 170px;
+    left: 160px; }
   .pg_home .pg_product_7 .pg_product_title_rotate {
     top: 266px;
     left: 165px; }
   .pg_home .pg_product_7 .pg_product_title_rotate:before,
   .pg_home .pg_product_7 .pg_product_title_rotate:after {
     content: "EDITION"; }
+  .pg_home .pg_product_7 .pg_number {
+    right: -120px;
+    bottom: 0; }
+  .pg_home .pg_product_7 .pg_depiction {
+    top: 170px;
+    left: 0; }
+  .pg_home .pg_number {
+    position: absolute;
+    font: normal bold 48px "Roboto", sans-serif;
+    z-index: 20;
+    color: #000; }
+  .pg_home .pg_depiction {
+    position: absolute;
+    font: italic bold 24px "Roboto", sans-serif;
+    z-index: 20;
+    color: #000;
+    white-space: nowrap; }
 
 .grid_height_1 {
   height: 100px; }
@@ -6387,3 +6436,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 .pg_stripe_squre {
   background-image: url("/static/img/pattern unit.svg"); }
+
+.rotate_90 {
+  transform: rotate(90deg); }

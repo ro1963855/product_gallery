@@ -89,7 +89,7 @@
     .pg_decorate_7 {
         position: absolute;
         right: 60px;
-        top: -50px;
+        top: -100px;
         z-index: 9;            
     }
 
@@ -247,7 +247,12 @@
         .pg_product_title:before, 
         .pg_product_title:after {
             content: "LINEN BLAZER";
-        }    
+        }   
+        
+        .pg_depiction {
+            bottom: 25px;
+            right: -80px;
+        }
     }
 
     .pg_product_2 {
@@ -260,6 +265,16 @@
         .pg_product_title:after {
             content: "FREELIFT";
         }    
+
+        .pg_number {
+            right: 0;
+            top: 0;
+        }
+
+        .pg_depiction {
+            left: 110px;
+            top: 72px;
+        }
     }  
     
     .pg_product_3 {
@@ -272,6 +287,15 @@
         .pg_product_title:after {
             content: "SUPER SKINNY";
         }    
+
+        .pg_number {
+            right: -60px;
+            top: 200px;
+        }
+
+        .pg_depiction {
+            left: 12px;
+        }
     }     
 
     .pg_product_4 {
@@ -284,6 +308,16 @@
         .pg_product_title_rotate:after {
             content: "DENIM";
         }    
+
+        .pg_number {
+            left: -60px;
+            bottom: 0;
+        }
+
+        .pg_depiction {
+            top: -93px;
+            right: -17px;
+        }
     }     
 
     .pg_product_5 {
@@ -296,6 +330,16 @@
         .pg_product_title:after {
             content: "SWEATSHIRTS";
         }    
+
+        .pg_number {
+            left: -120px;
+            bottom: 0;
+        }
+
+        .pg_depiction {
+            top: 0;
+            right: -145px;
+        }
     }     
 
     .pg_product_6 {
@@ -307,6 +351,16 @@
         .pg_product_title:before, 
         .pg_product_title:after {
             content: "VINTAGE DENIM";
+        }
+        
+        .pg_number {
+            left: -60px;
+            top: 150px;
+        }
+
+        .pg_depiction {
+            bottom: 170px;
+            left: 160px;
         }
     }  
 
@@ -320,6 +374,31 @@
         .pg_product_title_rotate:after {
             content: "EDITION";
         }    
+
+        .pg_number {
+            right: -120px;
+            bottom: 0;
+        }
+
+        .pg_depiction {
+            top: 170px;
+            left: 0;
+        }
     }  
+
+    .pg_number {
+        position: absolute;
+        font: $font-Titele2;
+        z-index: 20;
+        color: $black;
+    }
+
+    .pg_depiction {
+        position: absolute;
+        font: $font-Titele3;
+        z-index: 20;
+        color: $black;
+        white-space: nowrap;
+    }
 
 }
