@@ -142,4 +142,184 @@
         z-index: 9;  
     }
 
+    .pg_product_title {
+        z-index: 11;
+        width: 100%;
+    }
+
+    .pg_product_title,
+    .pg_product_title span,
+    .pg_product_title:before,
+    .pg_product_title:after,
+    .pg_product_title_rotate,
+    .pg_product_title_rotate span,
+    .pg_product_title_rotate:before,
+    .pg_product_title_rotate:after {
+        position: absolute;
+    }
+
+    .pg_product_title span,
+    .pg_product_title:before,
+    .pg_product_title:after,
+    .pg_product_title_rotate span,
+    .pg_product_title_rotate:before,
+    .pg_product_title_rotate:after {
+        position: absolute;
+        overflow: hidden;
+        font: $font-Titele2;
+        white-space: nowrap;
+    }
+
+    .pg_product_title span {
+        color: $color-gray1;
+        z-index: 13;
+        height: 25px;
+        top: -17px;
+    }
+
+    .pg_product_title:before {
+        color: $color-gray2;
+        z-index: 11;
+        height: 18px;
+        top: -27px;
+    }
+
+    .pg_product_title:after {
+        color: $black;
+        z-index: 15;
+    }
+
+    // rotate 270
+    .pg_product_title_rotate.pg_rotate_270 span {
+        color: $color-gray1;
+        z-index: 13;
+        height: 25px;
+        top: 15px;
+        left: -33px;
+        transform: rotate(270deg);
+    }
+
+    .pg_product_title_rotate.pg_rotate_270:before {
+        color: $color-gray2;
+        z-index: 11;
+        height: 18px;
+        top: 18px;
+        left: -48px;
+        transform: rotate(270deg);
+    }
+
+    .pg_product_title_rotate.pg_rotate_270:after {
+        color: $black;
+        z-index: 15;
+        transform: rotate(270deg);
+    }    
+
+    // rotate 90
+    .pg_product_title_rotate.pg_rotate_90 span {
+        color: $color-gray1;
+        z-index: 13;
+        height: 25px;
+        top: 15px;
+        left: 33px;
+        transform: rotate(90deg);
+    }
+
+    .pg_product_title_rotate.pg_rotate_90:before {
+        color: $color-gray2;
+        z-index: 11;
+        height: 18px;
+        top: 18px;
+        left: 48px;
+        transform: rotate(90deg);
+    }
+
+    .pg_product_title_rotate.pg_rotate_90:after {
+        color: $black;
+        z-index: 15;
+        transform: rotate(90deg);
+    }    
+
+    .pg_product_1 {
+        .pg_product_title {
+            top: -14px;
+        }        
+
+        .pg_product_title:before, 
+        .pg_product_title:after {
+            content: "LINEN BLAZER";
+        }    
+    }
+
+    .pg_product_2 {
+        .pg_product_title {
+            bottom: 80px;
+            right: -240px;
+        }        
+
+        .pg_product_title:before, 
+        .pg_product_title:after {
+            content: "FREELIFT";
+        }    
+    }  
+    
+    .pg_product_3 {
+        .pg_product_title {
+            top: -45px;
+            left: 120px;
+        }        
+
+        .pg_product_title:before, 
+        .pg_product_title:after {
+            content: "SUPER SKINNY";
+        }    
+    }     
+
+    .pg_product_4 {
+        .pg_product_title_rotate {
+            top: 46px;
+            left: -100px;
+        }        
+
+        .pg_product_title_rotate:before, 
+        .pg_product_title_rotate:after {
+            content: "DENIM";
+        }    
+    }     
+
+    .pg_product_5 {
+        .pg_product_title {
+            top: 50px;
+            left: -260px;        
+        }        
+
+        .pg_product_title:before, 
+        .pg_product_title:after {
+            content: "SWEATSHIRTS";
+        }    
+    }     
+
+    .pg_product_6 {
+        .pg_product_title {
+            top: -50px;
+            left: 102px;        
+        }        
+
+        .pg_product_title:before, 
+        .pg_product_title:after {
+            content: "VINTAGE DENIM";
+        }
+    }  
+
+    .pg_product_7 {
+        .pg_product_title_rotate {
+            top: 266px;
+            left: 165px;      
+        }        
+
+        .pg_product_title_rotate:before, 
+        .pg_product_title_rotate:after {
+            content: "EDITION";
+        }    
+    }  
+
 }

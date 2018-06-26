@@ -6233,6 +6233,118 @@ a.text-dark:hover, a.text-dark:focus {
     left: -60px;
     bottom: 200px;
     z-index: 9; }
+  .pg_home .pg_product_title {
+    z-index: 11;
+    width: 100%; }
+  .pg_home .pg_product_title,
+  .pg_home .pg_product_title span,
+  .pg_home .pg_product_title:before,
+  .pg_home .pg_product_title:after,
+  .pg_home .pg_product_title_rotate,
+  .pg_home .pg_product_title_rotate span,
+  .pg_home .pg_product_title_rotate:before,
+  .pg_home .pg_product_title_rotate:after {
+    position: absolute; }
+  .pg_home .pg_product_title span,
+  .pg_home .pg_product_title:before,
+  .pg_home .pg_product_title:after,
+  .pg_home .pg_product_title_rotate span,
+  .pg_home .pg_product_title_rotate:before,
+  .pg_home .pg_product_title_rotate:after {
+    position: absolute;
+    overflow: hidden;
+    font: normal bold 48px "Roboto", sans-serif;
+    white-space: nowrap; }
+  .pg_home .pg_product_title span {
+    color: rgba(0, 0, 0, 0.3);
+    z-index: 13;
+    height: 25px;
+    top: -17px; }
+  .pg_home .pg_product_title:before {
+    color: rgba(0, 0, 0, 0.1);
+    z-index: 11;
+    height: 18px;
+    top: -27px; }
+  .pg_home .pg_product_title:after {
+    color: #000;
+    z-index: 15; }
+  .pg_home .pg_product_title_rotate.pg_rotate_270 span {
+    color: rgba(0, 0, 0, 0.3);
+    z-index: 13;
+    height: 25px;
+    top: 15px;
+    left: -33px;
+    transform: rotate(270deg); }
+  .pg_home .pg_product_title_rotate.pg_rotate_270:before {
+    color: rgba(0, 0, 0, 0.1);
+    z-index: 11;
+    height: 18px;
+    top: 18px;
+    left: -48px;
+    transform: rotate(270deg); }
+  .pg_home .pg_product_title_rotate.pg_rotate_270:after {
+    color: #000;
+    z-index: 15;
+    transform: rotate(270deg); }
+  .pg_home .pg_product_title_rotate.pg_rotate_90 span {
+    color: rgba(0, 0, 0, 0.3);
+    z-index: 13;
+    height: 25px;
+    top: 15px;
+    left: 33px;
+    transform: rotate(90deg); }
+  .pg_home .pg_product_title_rotate.pg_rotate_90:before {
+    color: rgba(0, 0, 0, 0.1);
+    z-index: 11;
+    height: 18px;
+    top: 18px;
+    left: 48px;
+    transform: rotate(90deg); }
+  .pg_home .pg_product_title_rotate.pg_rotate_90:after {
+    color: #000;
+    z-index: 15;
+    transform: rotate(90deg); }
+  .pg_home .pg_product_1 .pg_product_title {
+    top: -14px; }
+  .pg_home .pg_product_1 .pg_product_title:before,
+  .pg_home .pg_product_1 .pg_product_title:after {
+    content: "LINEN BLAZER"; }
+  .pg_home .pg_product_2 .pg_product_title {
+    bottom: 80px;
+    right: -240px; }
+  .pg_home .pg_product_2 .pg_product_title:before,
+  .pg_home .pg_product_2 .pg_product_title:after {
+    content: "FREELIFT"; }
+  .pg_home .pg_product_3 .pg_product_title {
+    top: -45px;
+    left: 120px; }
+  .pg_home .pg_product_3 .pg_product_title:before,
+  .pg_home .pg_product_3 .pg_product_title:after {
+    content: "SUPER SKINNY"; }
+  .pg_home .pg_product_4 .pg_product_title_rotate {
+    top: 46px;
+    left: -100px; }
+  .pg_home .pg_product_4 .pg_product_title_rotate:before,
+  .pg_home .pg_product_4 .pg_product_title_rotate:after {
+    content: "DENIM"; }
+  .pg_home .pg_product_5 .pg_product_title {
+    top: 50px;
+    left: -260px; }
+  .pg_home .pg_product_5 .pg_product_title:before,
+  .pg_home .pg_product_5 .pg_product_title:after {
+    content: "SWEATSHIRTS"; }
+  .pg_home .pg_product_6 .pg_product_title {
+    top: -50px;
+    left: 102px; }
+  .pg_home .pg_product_6 .pg_product_title:before,
+  .pg_home .pg_product_6 .pg_product_title:after {
+    content: "VINTAGE DENIM"; }
+  .pg_home .pg_product_7 .pg_product_title_rotate {
+    top: 266px;
+    left: 165px; }
+  .pg_home .pg_product_7 .pg_product_title_rotate:before,
+  .pg_home .pg_product_7 .pg_product_title_rotate:after {
+    content: "EDITION"; }
 
 .grid_height_1 {
   height: 100px; }
