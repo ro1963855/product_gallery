@@ -76,8 +76,10 @@
           <span class="pg_depiction">Men’s shirts</span>
         </div>
         <div class="offset-2 col-2 pg_product_6">
-          <div class="pg_product_image pg_480x400 position-relative"
-                style="background-image: url('/static/img/2.jpg');"></div>
+          <router-link :to="{ name: 'Detail' }">
+            <div class="pg_product_image pg_480x400 position-relative"
+                  style="background-image: url('/static/img/2.jpg');"></div>
+          </router-link>
           <div class="pg_hollow_squre pg_480x200 pg_decorate_13"></div>
           <div class="pg_fill_squre pg_240x200 pg_decorate_14"></div>
           <div class="pg_product_title"><span>VINTAGE DENIM</span></div>

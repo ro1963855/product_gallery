@@ -10,31 +10,11 @@
         height: $per_grid_height;
     }
 
-    .pg_logo {
-        width: 131px;
-        height: 27px;
-        background: $black;
-        p {
-            color: white;
-            font: $font-Logo;
-            text-align: center;
-            line-height: 27px;
-            margin: 0;
-            padding: 0;
-        }
-    }
-
     .pg_title {
         margin-top: 6px;
         font: $font-Titele;
     }
     
-    .pg_product_image {
-        background-position:center;
-        background-size: cover;      
-        z-index: 10; 
-    }
-
     .pg_image_reverse {
         -moz-transform: scaleX(-1);
         -o-transform: scaleX(-1);

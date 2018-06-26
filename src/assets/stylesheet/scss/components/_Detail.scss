@@ -1,0 +1,116 @@
+.pg_detail {
+    padding: 17px;
+    min-width: 1024px !important;
+    > .container {
+        width: 990px !important;
+        min-width: 990px !important;
+    }
+
+    .pg_back_icon {
+        margin-right: 8px;
+        width: 25px;
+        height: 24px;
+        color: $black;
+    }
+
+    .pg_decorate_1 {
+        position: absolute;
+        left: -60px;
+        top: -50px;
+        z-index: 9; 
+    }
+    
+    .pg_decorate_2 {
+        position: absolute;
+        right: -60px;
+        bottom: -50px;
+        z-index: 9; 
+    }
+
+    .pg_decorate_3 {
+        position: absolute;
+        right: -60px;
+        top: 100px;
+        z-index: 9;        
+    }
+
+    .pg_decorate_4 {
+        position: absolute;
+        left: -60px;
+        top: 150px;
+        z-index: 9;        
+    }
+
+    .pg_decorate_5 {
+        position: absolute;
+        left: 60px;
+        bottom: -50px;
+        z-index: 11;        
+    }
+
+    .pg_detail_img_2 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 11;
+    }
+
+    .pg_detail_img_3 {
+        position: absolute;
+        right: 0;
+        bottom: 0;        
+    }
+
+    .pg_detail_description {
+        position: absolute;
+        white-space: nowrap;
+        font: $font-Titele3;
+        left: -92px;
+        top: 100px;
+    }
+
+    .pg_detail_title {
+        font: $font-Titele2;
+    }
+
+    .pg_detail_subtitle {
+        font: $font-Subtitle;
+    }
+
+    .pg_detail_content {
+        font: $font-Paragraph;
+        line-height: 24px;
+        color: black;
+    }
+
+    .pg_first_name,
+    .pg_last_name,
+    .pg_top,
+    .pg_number {
+        position: absolute;
+        font: $font-Titele2;
+        z-index: 11;
+        color: $black;
+    }
+
+    .pg_first_name {
+        right: 0;
+        top: -55px;
+    }
+
+    .pg_last_name {
+        right: -105px;
+        top: 50px;
+    }
+
+    .pg_top {
+        left: 0;
+        bottom: -55px;
+    }
+
+    .pg_number {
+        left: -55px;
+        bottom: 0;
+    }
+
+}
