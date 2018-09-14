@@ -1794,6 +1794,15 @@ h2,h3{page-break-after:avoid}
 .pg_detail .pg_last_name{right:-105px;top:50px}
 .pg_detail .pg_top{left:0;bottom:-55px}
 .pg_detail .pg_number{left:-55px;bottom:0}
+.background-img1{background-image:url(~@/assets/img/1.jpg)}
+.background-img2{background-image:url(~@/assets/img/2.jpg)}
+.background-img3{background-image:url(~@/assets/img/3.jpg)}
+.background-img4{background-image:url(~@/assets/img/4.jpg)}
+.background-img5{background-image:url(~@/assets/img/5.jpg)}
+.background-img6{background-image:url(~@/assets/img/6.jpg)}
+.background-img7{background-image:url(~@/assets/img/7.jpg)}
+.background-img8{background-image:url(~@/assets/img/8.jpg)}
+.background-img9{background-image:url(~@/assets/img/9.jpg)}
 .grid_height_1{height:100px}
 .grid_height_2{height:200px}
 .grid_height_4{height:400px}

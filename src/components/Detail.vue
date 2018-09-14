@@ -15,8 +15,7 @@
       <div class="row no-gutters grid_height_1"></div>
       <div class="row no-gutters grid_height_4">
         <div class="offset-1 col-6">
-          <div class="pg_product_image pg_720x400 position-relative"
-                style="background-image: url('/static/img/2.jpg');"></div>
+          <div class="pg_product_image pg_720x400 position-relative background-img2"></div>
           <div class="pg_fill_squre pg_240x200 pg_decorate_1"></div>
           <div class="pg_hollow_squre pg_480x200 pg_decorate_2"></div>
           <span class="pg_first_name">VINTAGE</span>
@@ -48,10 +47,8 @@
       <div class="row no-gutters grid_height_1"></div>
       <div class="row no-gutters grid_height_6">
         <div class="offset-1 col-6 position-relative">
-          <div class="pg_product_image pg_360x300 pg_detail_img_2"
-                style="background-image: url('/static/img/8.jpg');"></div>
-          <div class="pg_product_image pg_480x400 pg_detail_img_3"
-                style="background-image: url('/static/img/9.jpg');"></div>
+          <div class="pg_product_image pg_360x300 pg_detail_img_2 background-img8"></div>
+          <div class="pg_product_image pg_480x400 pg_detail_img_3 background-img9"></div>
           <div class="pg_fill_squre pg_240x200 pg_decorate_3"></div>
           <div class="pg_hollow_squre pg_480x200 pg_decorate_4"></div>
           <div class="pg_stripe_squre pg_240x100 pg_decorate_5"></div>
